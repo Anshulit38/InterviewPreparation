@@ -1,3 +1,14 @@
+/*
+*
+**
+***
+****
+*****
+
+
+
+*/
+
 
 let n =5;
 
@@ -7,6 +18,6 @@ for(i=0; i<n; i++){
         str = str + '*' ;
        // console.log(str,i)
     }    
-    console.log(str,i);
+    console.log(str);
 }
 
