@@ -7,16 +7,6 @@
 
 */
 
-//let n=5;
-
-// for(let i=0; i<=n; i++){
-//     let str = '*';
-//     for(let j = n; j>n-i; j--){
-//         str=str + '*';
-//     }
-//     console.log(str)
-// }
-
 let n = 5;
 
 // creating pyramid
