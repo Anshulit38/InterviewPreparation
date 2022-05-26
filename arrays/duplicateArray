@@ -1,0 +1,17 @@
+
+const details = [10,20,10,30,40,30];
+let data= details.filter((el,index)=>details.indexOf(el)==index)
+console.log(data)
+//let unique= [...new Set(details)]
+console.log([...new Set(details)])
+
+
+let uniqueNum = [];
+details.forEach((el)=>{
+  if(!uniqueNum.includes(el)){
+    console.log(el)
+    uniqueNum.push(el)
+  }
+})
+
+console.log(uniqueNum)
